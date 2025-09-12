@@ -1,6 +1,6 @@
 # Lines of Code Statistics
 
-Generated on: 2025-09-12 05:40:07 UTC
+Generated on: 2025-09-12 05:43:42 UTC
 
 ## Summary
 
@@ -8,7 +8,7 @@ Generated on: 2025-09-12 05:40:07 UTC
 |------------|----------|-------|-------------|----------|------------|
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
-| SelfGithubScanner | Markdown | 2 | 88 | 0 | 255 |
+| SelfGithubScanner | Markdown | 3 | 101 | 0 | 448 |
 | SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | CrewAd | HTML | 2 | 88 | 1 | 665 |
 | CrewAd | JSON | 2 | 0 | 0 | 1677 |
@@ -149,7 +149,7 @@ Generated on: 2025-09-12 05:40:07 UTC
 | PowerShell | 216 |
 | Perl | 766 |
 | Meson | 187 |
-| Markdown | 4698 |
+| Markdown | 4891 |
 | Mako | 522 |
 | JavaScript | 30715 |
 | JSX | 2314 |
@@ -169,10 +169,10 @@ Generated on: 2025-09-12 05:40:07 UTC
 
 ## Grand Totals
 
-- **Total Files:** 25936
-- **Total Blank Lines:** 1391651
+- **Total Files:** 25937
+- **Total Blank Lines:** 1391664
 - **Total Comments:** 2161227
-- **Total Lines of Code:** 6316210
+- **Total Lines of Code:** 6316403
 
 ## Skipped Repositories
 
