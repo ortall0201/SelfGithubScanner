@@ -1,0 +1,24 @@
+{
+  "name": "self-github-scanner",
+  "version": "1.0.0",
+  "description": "Automated Lines of Code statistics generator for GitHub repositories",
+  "type": "module",
+  "scripts": {
+    "loc": "node scripts/loc-all.mjs",
+    "loc:help": "node scripts/loc-all.mjs --help",
+    "loc:public": "node scripts/loc-all.mjs --exclude-private",
+    "loc:js": "node scripts/loc-all.mjs --file-types js,ts,jsx,tsx"
+  },
+  "keywords": [
+    "github",
+    "lines-of-code",
+    "statistics",
+    "cloc",
+    "automation"
+  ],
+  "author": "ortall0201",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

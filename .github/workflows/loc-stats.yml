@@ -1,0 +1,183 @@
+name: Generate LOC Statistics
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday
+  workflow_dispatch:  # Allow manual trigger
+  push:
+    branches: [main]
+    paths: ['.github/workflows/loc-stats.yml']
+
+jobs:
+  generate-loc-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout this repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Install cloc
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y cloc
+        
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Fetch all public repositories and generate LOC stats
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_USERNAME: ortall0201
+      run: |
+        mkdir -p temp_repos
+        cd temp_repos
+        
+        echo "# Lines of Code Statistics" > ../LOC_REPORT.md
+        echo "" >> ../LOC_REPORT.md
+        echo "Generated on: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> ../LOC_REPORT.md
+        echo "" >> ../LOC_REPORT.md
+        echo "## Summary" >> ../LOC_REPORT.md
+        echo "" >> ../LOC_REPORT.md
+        
+        # Initialize totals
+        declare -A language_totals
+        total_files=0
+        total_blank=0
+        total_comment=0
+        total_code=0
+        skipped_repos=""
+        processed_repos=""
+        
+        # Fetch all public repositories (excluding forks and archived)
+        repos=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          "https://api.github.com/users/$GITHUB_USERNAME/repos?type=public&per_page=100&sort=updated" | \
+          jq -r '.[] | select(.fork == false and .archived == false) | "\(.name)|\(.default_branch)|\(.clone_url)"')
+        
+        echo "| Repository | Language | Files | Blank Lines | Comments | Code Lines |" >> ../LOC_REPORT.md
+        echo "|------------|----------|-------|-------------|----------|------------|" >> ../LOC_REPORT.md
+        
+        while IFS='|' read -r repo_name default_branch clone_url; do
+          if [[ -z "$repo_name" ]]; then
+            continue
+          fi
+          
+          echo "Processing: $repo_name"
+          
+          # Clone repository
+          if git clone --depth 1 --branch "$default_branch" "$clone_url" "$repo_name" 2>/dev/null; then
+            cd "$repo_name"
+            
+            # Run cloc and capture output
+            cloc_output=$(cloc . --json 2>/dev/null)
+            
+            if [[ $? -eq 0 && "$cloc_output" != "" ]]; then
+              # Parse JSON output
+              languages=$(echo "$cloc_output" | jq -r 'keys[] | select(. != "header" and . != "SUM")')
+              
+              repo_total_files=0
+              repo_total_blank=0
+              repo_total_comment=0
+              repo_total_code=0
+              
+              for lang in $languages; do
+                if [[ "$lang" != "null" ]]; then
+                  files=$(echo "$cloc_output" | jq -r ".[\"$lang\"].nFiles // 0")
+                  blank=$(echo "$cloc_output" | jq -r ".[\"$lang\"].blank // 0")
+                  comment=$(echo "$cloc_output" | jq -r ".[\"$lang\"].comment // 0")
+                  code=$(echo "$cloc_output" | jq -r ".[\"$lang\"].code // 0")
+                  
+                  if [[ $code -gt 0 ]]; then
+                    echo "| $repo_name | $lang | $files | $blank | $comment | $code |" >> ../../LOC_REPORT.md
+                    
+                    # Add to language totals
+                    language_totals["$lang"]=$((${language_totals["$lang"]:-0} + $code))
+                    
+                    # Add to repo totals
+                    repo_total_files=$((repo_total_files + files))
+                    repo_total_blank=$((repo_total_blank + blank))
+                    repo_total_comment=$((repo_total_comment + comment))
+                    repo_total_code=$((repo_total_code + code))
+                  fi
+                fi
+              done
+              
+              # Add to grand totals
+              total_files=$((total_files + repo_total_files))
+              total_blank=$((total_blank + repo_total_blank))
+              total_comment=$((total_comment + repo_total_comment))
+              total_code=$((total_code + repo_total_code))
+              
+              processed_repos="$processed_repos$repo_name "
+            else
+              echo "Warning: cloc failed for $repo_name or no code found"
+              skipped_repos="$skipped_repos$repo_name (cloc failed) "
+            fi
+            
+            cd ..
+            rm -rf "$repo_name"
+          else
+            echo "Warning: Failed to clone $repo_name"
+            skipped_repos="$skipped_repos$repo_name (clone failed) "
+          fi
+        done <<< "$repos"
+        
+        # Add totals section
+        echo "" >> ../LOC_REPORT.md
+        echo "## Language Summary" >> ../LOC_REPORT.md
+        echo "" >> ../LOC_REPORT.md
+        echo "| Language | Total Lines of Code |" >> ../LOC_REPORT.md
+        echo "|----------|---------------------|" >> ../LOC_REPORT.md
+        
+        # Sort languages by LOC descending
+        for lang in $(printf '%s\n' "${!language_totals[@]}" | sort -rn -k2); do
+          echo "| $lang | ${language_totals[$lang]} |" >> ../LOC_REPORT.md
+        done
+        
+        echo "" >> ../LOC_REPORT.md
+        echo "## Grand Totals" >> ../LOC_REPORT.md
+        echo "" >> ../LOC_REPORT.md
+        echo "- **Total Files:** $total_files" >> ../LOC_REPORT.md
+        echo "- **Total Blank Lines:** $total_blank" >> ../LOC_REPORT.md
+        echo "- **Total Comments:** $total_comment" >> ../LOC_REPORT.md
+        echo "- **Total Lines of Code:** $total_code" >> ../LOC_REPORT.md
+        echo "" >> ../LOC_REPORT.md
+        
+        if [[ -n "$skipped_repos" ]]; then
+          echo "## Skipped Repositories" >> ../LOC_REPORT.md
+          echo "" >> ../LOC_REPORT.md
+          echo "The following repositories were skipped:" >> ../LOC_REPORT.md
+          echo "" >> ../LOC_REPORT.md
+          for repo in $skipped_repos; do
+            echo "- $repo" >> ../LOC_REPORT.md
+          done
+          echo "" >> ../LOC_REPORT.md
+        fi
+        
+        echo "## Processed Repositories" >> ../LOC_REPORT.md
+        echo "" >> ../LOC_REPORT.md
+        echo "Successfully analyzed the following repositories:" >> ../LOC_REPORT.md
+        echo "" >> ../LOC_REPORT.md
+        for repo in $processed_repos; do
+          echo "- $repo" >> ../LOC_REPORT.md
+        done
+        
+        cd ..
+        rm -rf temp_repos
+        
+    - name: Commit and push results
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add LOC_REPORT.md
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update LOC statistics - $(date -u '+%Y-%m-%d')"
+          git push
+        fi
