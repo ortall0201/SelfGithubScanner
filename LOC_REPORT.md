@@ -1,6 +1,6 @@
 # Lines of Code Statistics
 
-Generated on: 2025-09-14 01:49:53 UTC
+Generated on: 2025-09-21 01:58:37 UTC
 
 ## Summary
 
@@ -81,28 +81,6 @@ Generated on: 2025-09-14 01:49:53 UTC
 | my-iran-trends-app | Python | 1 | 13 | 7 | 41 |
 | my-iran-trends-app | Text | 1 | 0 | 0 | 46 |
 | ortall0201 | Markdown | 1 | 19 | 4 | 29 |
-| Mental_Chat_Bot | C | 6 | 119 | 167 | 1838 |
-| Mental_Chat_Bot | C | 6 | 119 | 167 | 1838 |
-| Mental_Chat_Bot | C++ | 1 | 13 | 14 | 143 |
-| Mental_Chat_Bot | CSS | 4 | 15 | 0 | 107 |
-| Mental_Chat_Bot | CSV | 50 | 0 | 0 | 36946 |
-| Mental_Chat_Bot | Cython | 11 | 495 | 452 | 2258 |
-| Mental_Chat_Bot | HTML | 2 | 4 | 20 | 31 |
-| Mental_Chat_Bot | INI | 3 | 5 | 1 | 36 |
-| Mental_Chat_Bot | JSON | 8 | 1 | 0 | 38021 |
-| Mental_Chat_Bot | JSX | 13 | 103 | 7 | 821 |
-| Mental_Chat_Bot | JavaScript | 26 | 158 | 20 | 1122 |
-| Mental_Chat_Bot | Markdown | 16 | 291 | 9 | 712 |
-| Mental_Chat_Bot | Meson | 3 | 24 | 9 | 122 |
-| Mental_Chat_Bot | Perl | 16 | 54 | 0 | 383 |
-| Mental_Chat_Bot | PowerShell | 1 | 49 | 90 | 108 |
-| Mental_Chat_Bot | Python | 2969 | 228977 | 320243 | 777964 |
-| Mental_Chat_Bot | SVG | 1 | 0 | 0 | 1 |
-| Mental_Chat_Bot | TOML | 6 | 53 | 63 | 155 |
-| Mental_Chat_Bot | Text | 34 | 1528 | 0 | 7770 |
-| Mental_Chat_Bot | XSLT | 3 | 699 | 467 | 7525 |
-| Mental_Chat_Bot | YAML | 18 | 87 | 7 | 734 |
-| Mental_Chat_Bot | reStructuredText | 1 | 52 | 1 | 183 |
 | OmdenaBot | CSS | 3 | 13 | 0 | 92 |
 | OmdenaBot | HTML | 1 | 3 | 20 | 20 |
 | OmdenaBot | JSON | 3 | 0 | 0 | 17717 |
@@ -136,43 +114,43 @@ Generated on: 2025-09-14 01:49:53 UTC
 
 | Language | Total Lines of Code |
 |----------|---------------------|
-| reStructuredText | 638 |
-| YAML | 2075 |
-| XSLT | 15214 |
+| reStructuredText | 455 |
+| YAML | 1341 |
+| XSLT | 7689 |
 | XML | 42 |
 | TypeScript | 18391 |
-| Text | 64812 |
-| TOML | 867 |
-| SVG | 344 |
+| Text | 57042 |
+| TOML | 712 |
+| SVG | 343 |
 | SQL | 1829 |
-| Python | 5551642 |
-| PowerShell | 216 |
-| Perl | 766 |
-| Meson | 187 |
-| Markdown | 4891 |
+| Python | 4773678 |
+| PowerShell | 108 |
+| Perl | 383 |
+| Meson | 65 |
+| Markdown | 4179 |
 | Mako | 522 |
-| JavaScript | 30715 |
-| JSX | 2314 |
-| JSON | 126565 |
-| INI | 249 |
+| JavaScript | 29593 |
+| JSX | 1493 |
+| JSON | 88544 |
+| INI | 213 |
 | IDL | 62 |
-| HTML | 12277 |
+| HTML | 12246 |
 | Dockerfile | 44 |
-| Cython | 33382 |
-| CSV | 413855 |
-| CSS | 2259 |
+| Cython | 31124 |
+| CSV | 376909 |
+| CSS | 2152 |
 | CMake | 3 |
-| C++ | 23327 |
-| C | 8727 |
+| C++ | 23184 |
+| C | 5051 |
 | Assembly | 120 |
 | ASP | 68 |
 
 ## Grand Totals
 
-- **Total Files:** 25937
-- **Total Blank Lines:** 1391664
-- **Total Comments:** 2161227
-- **Total Lines of Code:** 6316403
+- **Total Files:** 22739
+- **Total Blank Lines:** 1158818
+- **Total Comments:** 1839490
+- **Total Lines of Code:** 5437585
 
 ## Skipped Repositories
 
@@ -195,7 +173,6 @@ Successfully analyzed the following repositories:
 - docu-translate-spark
 - my-iran-trends-app
 - ortall0201
-- Mental_Chat_Bot
 - OmdenaBot
 - Closet-Cleaning-Inventory-Project-using-SQL
 - Knesset_24_Regression
