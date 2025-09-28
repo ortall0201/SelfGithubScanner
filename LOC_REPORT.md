@@ -1,14 +1,16 @@
 # Lines of Code Statistics
 
-Generated on: 2025-09-21 01:58:37 UTC
+Generated on: 2025-09-28 01:54:32 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
+| israeli-ai-career-dashboard | HTML | 1 | 217 | 21 | 1532 |
+| israeli-ai-career-dashboard | Markdown | 1 | 0 | 0 | 2 |
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
-| SelfGithubScanner | Markdown | 3 | 101 | 0 | 448 |
+| SelfGithubScanner | Markdown | 3 | 101 | 0 | 425 |
 | SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | CrewAd | HTML | 2 | 88 | 1 | 665 |
 | CrewAd | JSON | 2 | 0 | 0 | 1677 |
@@ -127,14 +129,14 @@ Generated on: 2025-09-21 01:58:37 UTC
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 4179 |
+| Markdown | 4158 |
 | Mako | 522 |
 | JavaScript | 29593 |
 | JSX | 1493 |
 | JSON | 88544 |
 | INI | 213 |
 | IDL | 62 |
-| HTML | 12246 |
+| HTML | 13778 |
 | Dockerfile | 44 |
 | Cython | 31124 |
 | CSV | 376909 |
@@ -147,10 +149,10 @@ Generated on: 2025-09-21 01:58:37 UTC
 
 ## Grand Totals
 
-- **Total Files:** 22739
-- **Total Blank Lines:** 1158818
-- **Total Comments:** 1839490
-- **Total Lines of Code:** 5437585
+- **Total Files:** 22741
+- **Total Blank Lines:** 1159035
+- **Total Comments:** 1839511
+- **Total Lines of Code:** 5439096
 
 ## Skipped Repositories
 
@@ -164,6 +166,8 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
+- resume
+- israeli-ai-career-dashboard
 - SelfGithubScanner
 - CrewAd
 - Portfolio-GPT5
