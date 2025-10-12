@@ -1,11 +1,12 @@
 # Lines of Code Statistics
 
-Generated on: 2025-10-05 01:53:53 UTC
+Generated on: 2025-10-12 01:49:18 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
+| Architect_agent_n8n | Markdown | 1 | 0 | 0 | 2 |
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
 | SelfGithubScanner | Markdown | 3 | 101 | 0 | 429 |
@@ -129,7 +130,7 @@ Generated on: 2025-10-05 01:53:53 UTC
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 4162 |
+| Markdown | 4164 |
 | Mako | 522 |
 | JavaScript | 29593 |
 | JSX | 1493 |
@@ -149,10 +150,10 @@ Generated on: 2025-10-05 01:53:53 UTC
 
 ## Grand Totals
 
-- **Total Files:** 22741
+- **Total Files:** 22742
 - **Total Blank Lines:** 1159035
 - **Total Comments:** 1839511
-- **Total Lines of Code:** 5439100
+- **Total Lines of Code:** 5439102
 
 ## Skipped Repositories
 
@@ -166,6 +167,7 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
+- Architect_agent_n8n
 - SelfGithubScanner
 - resume
 - israeli-ai-career-dashboard
