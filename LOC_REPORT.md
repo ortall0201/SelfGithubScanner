@@ -1,15 +1,25 @@
 # Lines of Code Statistics
 
-Generated on: 2025-10-12 01:49:18 UTC
+Generated on: 2025-10-19 01:57:30 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
-| Architect_agent_n8n | Markdown | 1 | 0 | 0 | 2 |
+| vibe-analytics-crewai | Markdown | 1 | 0 | 0 | 2 |
+| vibe-analytics-crewai | Python | 5 | 120 | 226 | 310 |
+| vibe-analytics-crewai | Text | 1 | 5 | 0 | 14 |
+| vibe-analytics-crewai | YAML | 1 | 7 | 11 | 42 |
+| ai-architect-free- | Dockerfile | 1 | 9 | 10 | 14 |
+| ai-architect-free- | HTML | 1 | 111 | 3 | 703 |
+| ai-architect-free- | JSON | 1 | 0 | 0 | 175 |
+| ai-architect-free- | Markdown | 1 | 250 | 0 | 864 |
+| ai-architect-free- | Python | 1 | 156 | 320 | 275 |
+| ai-architect-free- | Text | 1 | 0 | 0 | 8 |
+| ai-architect-free- | YAML | 1 | 4 | 2 | 52 |
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
-| SelfGithubScanner | Markdown | 3 | 101 | 0 | 429 |
+| SelfGithubScanner | Markdown | 3 | 101 | 0 | 431 |
 | SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | israeli-ai-career-dashboard | HTML | 1 | 217 | 21 | 1532 |
 | israeli-ai-career-dashboard | Markdown | 1 | 0 | 0 | 2 |
@@ -118,27 +128,27 @@ Generated on: 2025-10-12 01:49:18 UTC
 | Language | Total Lines of Code |
 |----------|---------------------|
 | reStructuredText | 455 |
-| YAML | 1341 |
+| YAML | 1435 |
 | XSLT | 7689 |
 | XML | 42 |
 | TypeScript | 18391 |
-| Text | 57042 |
+| Text | 57064 |
 | TOML | 712 |
 | SVG | 343 |
 | SQL | 1829 |
-| Python | 4773678 |
+| Python | 4774263 |
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 4164 |
+| Markdown | 5030 |
 | Mako | 522 |
 | JavaScript | 29593 |
 | JSX | 1493 |
-| JSON | 88544 |
+| JSON | 88719 |
 | INI | 213 |
 | IDL | 62 |
-| HTML | 13778 |
-| Dockerfile | 44 |
+| HTML | 14481 |
+| Dockerfile | 58 |
 | Cython | 31124 |
 | CSV | 376909 |
 | CSS | 2152 |
@@ -150,10 +160,10 @@ Generated on: 2025-10-12 01:49:18 UTC
 
 ## Grand Totals
 
-- **Total Files:** 22742
-- **Total Blank Lines:** 1159035
-- **Total Comments:** 1839511
-- **Total Lines of Code:** 5439102
+- **Total Files:** 22756
+- **Total Blank Lines:** 1159697
+- **Total Comments:** 1840083
+- **Total Lines of Code:** 5441561
 
 ## Skipped Repositories
 
@@ -167,7 +177,8 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
-- Architect_agent_n8n
+- vibe-analytics-crewai
+- ai-architect-free-
 - SelfGithubScanner
 - resume
 - israeli-ai-career-dashboard
