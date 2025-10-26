@@ -1,11 +1,27 @@
 # Lines of Code Statistics
 
-Generated on: 2025-10-19 01:57:30 UTC
+Generated on: 2025-10-26 01:53:49 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
+| Vibe_4_Dedigners | Markdown | 1 | 0 | 0 | 2 |
+| aws-assignment-mobupps | CSS | 2 | 39 | 3 | 132 |
+| aws-assignment-mobupps | Dockerfile | 1 | 0 | 0 | 9 |
+| aws-assignment-mobupps | HTML | 1 | 3 | 0 | 24 |
+| aws-assignment-mobupps | JSON | 6 | 5 | 0 | 6932 |
+| aws-assignment-mobupps | JavaScript | 2 | 1 | 0 | 31 |
+| aws-assignment-mobupps | Markdown | 9 | 670 | 0 | 2681 |
+| aws-assignment-mobupps | Python | 20 | 368 | 288 | 1153 |
+| aws-assignment-mobupps | SVG | 2 | 2 | 3 | 11 |
+| aws-assignment-mobupps | Text | 3 | 161 | 0 | 741 |
+| aws-assignment-mobupps | TypeScript | 71 | 625 | 23 | 5057 |
+| aws-assignment-mobupps | make | 1 | 4 | 0 | 9 |
+| SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
+| SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
+| SelfGithubScanner | Markdown | 3 | 101 | 0 | 442 |
+| SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | vibe-analytics-crewai | Markdown | 1 | 0 | 0 | 2 |
 | vibe-analytics-crewai | Python | 5 | 120 | 226 | 310 |
 | vibe-analytics-crewai | Text | 1 | 5 | 0 | 14 |
@@ -17,10 +33,6 @@ Generated on: 2025-10-19 01:57:30 UTC
 | ai-architect-free- | Python | 1 | 156 | 320 | 275 |
 | ai-architect-free- | Text | 1 | 0 | 0 | 8 |
 | ai-architect-free- | YAML | 1 | 4 | 2 | 52 |
-| SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
-| SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
-| SelfGithubScanner | Markdown | 3 | 101 | 0 | 431 |
-| SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | israeli-ai-career-dashboard | HTML | 1 | 217 | 21 | 1532 |
 | israeli-ai-career-dashboard | Markdown | 1 | 0 | 0 | 2 |
 | CrewAd | HTML | 2 | 88 | 1 | 665 |
@@ -128,30 +140,31 @@ Generated on: 2025-10-19 01:57:30 UTC
 | Language | Total Lines of Code |
 |----------|---------------------|
 | reStructuredText | 455 |
+| make | 9 |
 | YAML | 1435 |
 | XSLT | 7689 |
 | XML | 42 |
-| TypeScript | 18391 |
-| Text | 57064 |
+| TypeScript | 23448 |
+| Text | 57805 |
 | TOML | 712 |
-| SVG | 343 |
+| SVG | 354 |
 | SQL | 1829 |
-| Python | 4774263 |
+| Python | 4775416 |
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 5030 |
+| Markdown | 7724 |
 | Mako | 522 |
-| JavaScript | 29593 |
+| JavaScript | 29624 |
 | JSX | 1493 |
-| JSON | 88719 |
+| JSON | 95651 |
 | INI | 213 |
 | IDL | 62 |
-| HTML | 14481 |
-| Dockerfile | 58 |
+| HTML | 14505 |
+| Dockerfile | 67 |
 | Cython | 31124 |
 | CSV | 376909 |
-| CSS | 2152 |
+| CSS | 2284 |
 | CMake | 3 |
 | C++ | 23184 |
 | C | 5051 |
@@ -160,10 +173,10 @@ Generated on: 2025-10-19 01:57:30 UTC
 
 ## Grand Totals
 
-- **Total Files:** 22756
-- **Total Blank Lines:** 1159697
-- **Total Comments:** 1840083
-- **Total Lines of Code:** 5441561
+- **Total Files:** 22875
+- **Total Blank Lines:** 1161575
+- **Total Comments:** 1840400
+- **Total Lines of Code:** 5458354
 
 ## Skipped Repositories
 
@@ -177,9 +190,11 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
+- Vibe_4_Dedigners
+- aws-assignment-mobupps
+- SelfGithubScanner
 - vibe-analytics-crewai
 - ai-architect-free-
-- SelfGithubScanner
 - resume
 - israeli-ai-career-dashboard
 - CrewAd
