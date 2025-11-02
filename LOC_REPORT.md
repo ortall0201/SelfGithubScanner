@@ -1,11 +1,15 @@
 # Lines of Code Statistics
 
-Generated on: 2025-10-26 01:53:49 UTC
+Generated on: 2025-11-02 01:57:36 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
+| SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
+| SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
+| SelfGithubScanner | Markdown | 3 | 101 | 0 | 457 |
+| SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | Vibe_4_Dedigners | Markdown | 1 | 0 | 0 | 2 |
 | aws-assignment-mobupps | CSS | 2 | 39 | 3 | 132 |
 | aws-assignment-mobupps | Dockerfile | 1 | 0 | 0 | 9 |
@@ -18,10 +22,6 @@ Generated on: 2025-10-26 01:53:49 UTC
 | aws-assignment-mobupps | Text | 3 | 161 | 0 | 741 |
 | aws-assignment-mobupps | TypeScript | 71 | 625 | 23 | 5057 |
 | aws-assignment-mobupps | make | 1 | 4 | 0 | 9 |
-| SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
-| SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
-| SelfGithubScanner | Markdown | 3 | 101 | 0 | 442 |
-| SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | vibe-analytics-crewai | Markdown | 1 | 0 | 0 | 2 |
 | vibe-analytics-crewai | Python | 5 | 120 | 226 | 310 |
 | vibe-analytics-crewai | Text | 1 | 5 | 0 | 14 |
@@ -153,7 +153,7 @@ Generated on: 2025-10-26 01:53:49 UTC
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 7724 |
+| Markdown | 7739 |
 | Mako | 522 |
 | JavaScript | 29624 |
 | JSX | 1493 |
@@ -176,7 +176,7 @@ Generated on: 2025-10-26 01:53:49 UTC
 - **Total Files:** 22875
 - **Total Blank Lines:** 1161575
 - **Total Comments:** 1840400
-- **Total Lines of Code:** 5458354
+- **Total Lines of Code:** 5458369
 
 ## Skipped Repositories
 
@@ -190,9 +190,9 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
+- SelfGithubScanner
 - Vibe_4_Dedigners
 - aws-assignment-mobupps
-- SelfGithubScanner
 - vibe-analytics-crewai
 - ai-architect-free-
 - resume
