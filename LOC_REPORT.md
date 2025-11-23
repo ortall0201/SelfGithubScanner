@@ -1,13 +1,18 @@
 # Lines of Code Statistics
 
-Generated on: 2025-11-16 01:58:09 UTC
+Generated on: 2025-11-23 02:05:49 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
-| ai-agents-intensive-2025-google-challenge | JSON | 1 | 0 | 0 | 9 |
-| ai-agents-intensive-2025-google-challenge | Markdown | 11 | 1318 | 0 | 3921 |
+| enterprise-gov-docs-a2a-capstone | Dockerfile | 1 | 9 | 11 | 15 |
+| enterprise-gov-docs-a2a-capstone | JSON | 1 | 0 | 0 | 122 |
+| enterprise-gov-docs-a2a-capstone | Markdown | 14 | 1817 | 0 | 6076 |
+| enterprise-gov-docs-a2a-capstone | Python | 33 | 723 | 1026 | 1879 |
+| enterprise-gov-docs-a2a-capstone | Text | 4 | 41 | 0 | 97 |
+| enterprise-gov-docs-a2a-capstone | YAML | 4 | 30 | 41 | 102 |
+| ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
 | ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
@@ -144,27 +149,27 @@ Generated on: 2025-11-16 01:58:09 UTC
 |----------|---------------------|
 | reStructuredText | 455 |
 | make | 9 |
-| YAML | 1435 |
+| YAML | 1537 |
 | XSLT | 7689 |
 | XML | 42 |
 | TypeScript | 23448 |
-| Text | 57805 |
+| Text | 57902 |
 | TOML | 712 |
 | SVG | 354 |
 | SQL | 1829 |
-| Python | 4775473 |
+| Python | 4777352 |
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 11664 |
+| Markdown | 17372 |
 | Mako | 522 |
 | JavaScript | 29624 |
 | JSX | 1493 |
-| JSON | 95660 |
+| JSON | 95773 |
 | INI | 213 |
 | IDL | 62 |
 | HTML | 14505 |
-| Dockerfile | 67 |
+| Dockerfile | 82 |
 | Cython | 31124 |
 | CSV | 376909 |
 | CSS | 2284 |
@@ -176,10 +181,10 @@ Generated on: 2025-11-16 01:58:09 UTC
 
 ## Grand Totals
 
-- **Total Files:** 22888
-- **Total Blank Lines:** 1162902
-- **Total Comments:** 1840407
-- **Total Lines of Code:** 5462360
+- **Total Files:** 22943
+- **Total Blank Lines:** 1165355
+- **Total Comments:** 1841485
+- **Total Lines of Code:** 5470274
 
 ## Skipped Repositories
 
@@ -193,6 +198,7 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
+- enterprise-gov-docs-a2a-capstone
 - ai-agents-intensive-2025-google-challenge
 - SelfGithubScanner
 - Vibe_4_Dedigners
