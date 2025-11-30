@@ -1,22 +1,26 @@
 # Lines of Code Statistics
 
-Generated on: 2025-11-23 02:05:49 UTC
+Generated on: 2025-11-30 02:04:51 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
+| fashionbench | JSON | 6 | 0 | 0 | 56 |
+| fashionbench | Markdown | 2 | 215 | 0 | 612 |
+| fashionbench | Python | 8 | 363 | 461 | 969 |
+| fashionbench | Text | 1 | 2 | 0 | 10 |
+| ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
+| ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
 | enterprise-gov-docs-a2a-capstone | Dockerfile | 1 | 9 | 11 | 15 |
 | enterprise-gov-docs-a2a-capstone | JSON | 1 | 0 | 0 | 122 |
 | enterprise-gov-docs-a2a-capstone | Markdown | 14 | 1817 | 0 | 6076 |
 | enterprise-gov-docs-a2a-capstone | Python | 33 | 723 | 1026 | 1879 |
 | enterprise-gov-docs-a2a-capstone | Text | 4 | 41 | 0 | 97 |
-| enterprise-gov-docs-a2a-capstone | YAML | 4 | 30 | 41 | 102 |
-| ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
-| ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
+| enterprise-gov-docs-a2a-capstone | YAML | 4 | 35 | 41 | 110 |
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
-| SelfGithubScanner | Markdown | 3 | 101 | 0 | 461 |
+| SelfGithubScanner | Markdown | 3 | 101 | 0 | 467 |
 | SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | Vibe_4_Dedigners | Markdown | 1 | 0 | 0 | 2 |
 | aws-assignment-mobupps | CSS | 2 | 39 | 3 | 132 |
@@ -149,23 +153,23 @@ Generated on: 2025-11-23 02:05:49 UTC
 |----------|---------------------|
 | reStructuredText | 455 |
 | make | 9 |
-| YAML | 1537 |
+| YAML | 1545 |
 | XSLT | 7689 |
 | XML | 42 |
 | TypeScript | 23448 |
-| Text | 57902 |
+| Text | 57912 |
 | TOML | 712 |
 | SVG | 354 |
 | SQL | 1829 |
-| Python | 4777352 |
+| Python | 4778321 |
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 17372 |
+| Markdown | 17990 |
 | Mako | 522 |
 | JavaScript | 29624 |
 | JSX | 1493 |
-| JSON | 95773 |
+| JSON | 95829 |
 | INI | 213 |
 | IDL | 62 |
 | HTML | 14505 |
@@ -181,10 +185,10 @@ Generated on: 2025-11-23 02:05:49 UTC
 
 ## Grand Totals
 
-- **Total Files:** 22943
-- **Total Blank Lines:** 1165355
-- **Total Comments:** 1841485
-- **Total Lines of Code:** 5470274
+- **Total Files:** 22960
+- **Total Blank Lines:** 1165940
+- **Total Comments:** 1841946
+- **Total Lines of Code:** 5471935
 
 ## Skipped Repositories
 
@@ -198,8 +202,9 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
-- enterprise-gov-docs-a2a-capstone
+- fashionbench
 - ai-agents-intensive-2025-google-challenge
+- enterprise-gov-docs-a2a-capstone
 - SelfGithubScanner
 - Vibe_4_Dedigners
 - aws-assignment-mobupps
