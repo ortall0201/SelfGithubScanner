@@ -1,17 +1,11 @@
 # Lines of Code Statistics
 
-Generated on: 2025-11-30 02:04:51 UTC
+Generated on: 2025-12-07 02:05:14 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
-| fashionbench | JSON | 6 | 0 | 0 | 56 |
-| fashionbench | Markdown | 2 | 215 | 0 | 612 |
-| fashionbench | Python | 8 | 363 | 461 | 969 |
-| fashionbench | Text | 1 | 2 | 0 | 10 |
-| ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
-| ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
 | enterprise-gov-docs-a2a-capstone | Dockerfile | 1 | 9 | 11 | 15 |
 | enterprise-gov-docs-a2a-capstone | JSON | 1 | 0 | 0 | 122 |
 | enterprise-gov-docs-a2a-capstone | Markdown | 14 | 1817 | 0 | 6076 |
@@ -20,8 +14,14 @@ Generated on: 2025-11-30 02:04:51 UTC
 | enterprise-gov-docs-a2a-capstone | YAML | 4 | 35 | 41 | 110 |
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
-| SelfGithubScanner | Markdown | 3 | 101 | 0 | 467 |
+| SelfGithubScanner | Markdown | 3 | 101 | 0 | 472 |
 | SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
+| fashionbench | JSON | 6 | 0 | 0 | 56 |
+| fashionbench | Markdown | 2 | 215 | 0 | 612 |
+| fashionbench | Python | 8 | 363 | 461 | 969 |
+| fashionbench | Text | 1 | 2 | 0 | 10 |
+| ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
+| ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
 | Vibe_4_Dedigners | Markdown | 1 | 0 | 0 | 2 |
 | aws-assignment-mobupps | CSS | 2 | 39 | 3 | 132 |
 | aws-assignment-mobupps | Dockerfile | 1 | 0 | 0 | 9 |
@@ -165,7 +165,7 @@ Generated on: 2025-11-30 02:04:51 UTC
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 17990 |
+| Markdown | 17995 |
 | Mako | 522 |
 | JavaScript | 29624 |
 | JSX | 1493 |
@@ -188,7 +188,7 @@ Generated on: 2025-11-30 02:04:51 UTC
 - **Total Files:** 22960
 - **Total Blank Lines:** 1165940
 - **Total Comments:** 1841946
-- **Total Lines of Code:** 5471935
+- **Total Lines of Code:** 5471940
 
 ## Skipped Repositories
 
@@ -202,10 +202,10 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
-- fashionbench
-- ai-agents-intensive-2025-google-challenge
 - enterprise-gov-docs-a2a-capstone
 - SelfGithubScanner
+- fashionbench
+- ai-agents-intensive-2025-google-challenge
 - Vibe_4_Dedigners
 - aws-assignment-mobupps
 - vibe-analytics-crewai
