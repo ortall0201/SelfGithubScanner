@@ -1,27 +1,27 @@
 # Lines of Code Statistics
 
-Generated on: 2025-12-07 02:05:14 UTC
+Generated on: 2025-12-14 02:05:51 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
+| ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
+| ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
+| SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
+| SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
+| SelfGithubScanner | Markdown | 3 | 101 | 0 | 472 |
+| SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | enterprise-gov-docs-a2a-capstone | Dockerfile | 1 | 9 | 11 | 15 |
 | enterprise-gov-docs-a2a-capstone | JSON | 1 | 0 | 0 | 122 |
 | enterprise-gov-docs-a2a-capstone | Markdown | 14 | 1817 | 0 | 6076 |
 | enterprise-gov-docs-a2a-capstone | Python | 33 | 723 | 1026 | 1879 |
 | enterprise-gov-docs-a2a-capstone | Text | 4 | 41 | 0 | 97 |
 | enterprise-gov-docs-a2a-capstone | YAML | 4 | 35 | 41 | 110 |
-| SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
-| SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
-| SelfGithubScanner | Markdown | 3 | 101 | 0 | 472 |
-| SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | fashionbench | JSON | 6 | 0 | 0 | 56 |
 | fashionbench | Markdown | 2 | 215 | 0 | 612 |
 | fashionbench | Python | 8 | 363 | 461 | 969 |
 | fashionbench | Text | 1 | 2 | 0 | 10 |
-| ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
-| ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
 | Vibe_4_Dedigners | Markdown | 1 | 0 | 0 | 2 |
 | aws-assignment-mobupps | CSS | 2 | 39 | 3 | 132 |
 | aws-assignment-mobupps | Dockerfile | 1 | 0 | 0 | 9 |
@@ -202,10 +202,10 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
-- enterprise-gov-docs-a2a-capstone
-- SelfGithubScanner
-- fashionbench
 - ai-agents-intensive-2025-google-challenge
+- SelfGithubScanner
+- enterprise-gov-docs-a2a-capstone
+- fashionbench
 - Vibe_4_Dedigners
 - aws-assignment-mobupps
 - vibe-analytics-crewai
