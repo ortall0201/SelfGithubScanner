@@ -1,17 +1,17 @@
 # Lines of Code Statistics
 
-Generated on: 2025-12-14 02:05:51 UTC
+Generated on: 2025-12-21 02:05:44 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
-| ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
-| ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
 | SelfGithubScanner | Markdown | 3 | 101 | 0 | 472 |
 | SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
+| ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
+| ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
 | enterprise-gov-docs-a2a-capstone | Dockerfile | 1 | 9 | 11 | 15 |
 | enterprise-gov-docs-a2a-capstone | JSON | 1 | 0 | 0 | 122 |
 | enterprise-gov-docs-a2a-capstone | Markdown | 14 | 1817 | 0 | 6076 |
@@ -202,8 +202,8 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
-- ai-agents-intensive-2025-google-challenge
 - SelfGithubScanner
+- ai-agents-intensive-2025-google-challenge
 - enterprise-gov-docs-a2a-capstone
 - fashionbench
 - Vibe_4_Dedigners
