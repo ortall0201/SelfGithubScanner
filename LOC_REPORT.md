@@ -1,11 +1,14 @@
 # Lines of Code Statistics
 
-Generated on: 2025-12-28 02:11:09 UTC
+Generated on: 2026-01-04 02:12:53 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
+| KDP | JSON | 4 | 0 | 0 | 800 |
+| KDP | Markdown | 24 | 1887 | 0 | 6691 |
+| KDP | Text | 2 | 53 | 0 | 61 |
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
 | SelfGithubScanner | Markdown | 3 | 101 | 0 | 472 |
@@ -157,7 +160,7 @@ Generated on: 2025-12-28 02:11:09 UTC
 | XSLT | 7689 |
 | XML | 42 |
 | TypeScript | 23448 |
-| Text | 57912 |
+| Text | 57973 |
 | TOML | 712 |
 | SVG | 354 |
 | SQL | 1829 |
@@ -165,11 +168,11 @@ Generated on: 2025-12-28 02:11:09 UTC
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 17995 |
+| Markdown | 24686 |
 | Mako | 522 |
 | JavaScript | 29624 |
 | JSX | 1493 |
-| JSON | 95829 |
+| JSON | 96629 |
 | INI | 213 |
 | IDL | 62 |
 | HTML | 14505 |
@@ -185,10 +188,10 @@ Generated on: 2025-12-28 02:11:09 UTC
 
 ## Grand Totals
 
-- **Total Files:** 22960
-- **Total Blank Lines:** 1165940
+- **Total Files:** 22990
+- **Total Blank Lines:** 1167880
 - **Total Comments:** 1841946
-- **Total Lines of Code:** 5471940
+- **Total Lines of Code:** 5479492
 
 ## Skipped Repositories
 
@@ -202,6 +205,7 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
+- KDP
 - SelfGithubScanner
 - ai-agents-intensive-2025-google-challenge
 - enterprise-gov-docs-a2a-capstone
