@@ -1,17 +1,20 @@
 # Lines of Code Statistics
 
-Generated on: 2026-01-04 02:12:53 UTC
+Generated on: 2026-01-11 02:12:43 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
-| KDP | JSON | 4 | 0 | 0 | 800 |
-| KDP | Markdown | 24 | 1887 | 0 | 6691 |
-| KDP | Text | 2 | 53 | 0 | 61 |
+| KDP | JSON | 22 | 0 | 0 | 18334 |
+| KDP | JavaScript | 7 | 163 | 95 | 1938 |
+| KDP | Markdown | 65 | 6087 | 0 | 20526 |
+| KDP | Python | 37 | 1548 | 2861 | 4223 |
+| KDP | Text | 5 | 1061 | 0 | 1038 |
+| KDP | YAML | 1 | 4 | 0 | 42 |
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
-| SelfGithubScanner | Markdown | 3 | 101 | 0 | 472 |
+| SelfGithubScanner | Markdown | 3 | 101 | 0 | 476 |
 | SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
 | ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
@@ -156,23 +159,23 @@ Generated on: 2026-01-04 02:12:53 UTC
 |----------|---------------------|
 | reStructuredText | 455 |
 | make | 9 |
-| YAML | 1545 |
+| YAML | 1587 |
 | XSLT | 7689 |
 | XML | 42 |
 | TypeScript | 23448 |
-| Text | 57973 |
+| Text | 58950 |
 | TOML | 712 |
 | SVG | 354 |
 | SQL | 1829 |
-| Python | 4778321 |
+| Python | 4782544 |
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 24686 |
+| Markdown | 38525 |
 | Mako | 522 |
-| JavaScript | 29624 |
+| JavaScript | 31562 |
 | JSX | 1493 |
-| JSON | 96629 |
+| JSON | 114163 |
 | INI | 213 |
 | IDL | 62 |
 | HTML | 14505 |
@@ -188,10 +191,10 @@ Generated on: 2026-01-04 02:12:53 UTC
 
 ## Grand Totals
 
-- **Total Files:** 22990
-- **Total Blank Lines:** 1167880
-- **Total Comments:** 1841946
-- **Total Lines of Code:** 5479492
+- **Total Files:** 23097
+- **Total Blank Lines:** 1174803
+- **Total Comments:** 1844902
+- **Total Lines of Code:** 5518045
 
 ## Skipped Repositories
 
