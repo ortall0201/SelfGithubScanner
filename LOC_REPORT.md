@@ -1,21 +1,21 @@
 # Lines of Code Statistics
 
-Generated on: 2026-01-11 02:12:43 UTC
+Generated on: 2026-01-18 02:11:29 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
+| SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
+| SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
+| SelfGithubScanner | Markdown | 3 | 101 | 0 | 479 |
+| SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | KDP | JSON | 22 | 0 | 0 | 18334 |
 | KDP | JavaScript | 7 | 163 | 95 | 1938 |
 | KDP | Markdown | 65 | 6087 | 0 | 20526 |
 | KDP | Python | 37 | 1548 | 2861 | 4223 |
 | KDP | Text | 5 | 1061 | 0 | 1038 |
 | KDP | YAML | 1 | 4 | 0 | 42 |
-| SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
-| SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
-| SelfGithubScanner | Markdown | 3 | 101 | 0 | 476 |
-| SelfGithubScanner | YAML | 1 | 30 | 10 | 143 |
 | ai-agents-intensive-2025-google-challenge | Markdown | 10 | 1151 | 0 | 3553 |
 | ai-agents-intensive-2025-google-challenge | Python | 1 | 9 | 7 | 57 |
 | enterprise-gov-docs-a2a-capstone | Dockerfile | 1 | 9 | 11 | 15 |
@@ -171,7 +171,7 @@ Generated on: 2026-01-11 02:12:43 UTC
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 38525 |
+| Markdown | 38528 |
 | Mako | 522 |
 | JavaScript | 31562 |
 | JSX | 1493 |
@@ -194,7 +194,7 @@ Generated on: 2026-01-11 02:12:43 UTC
 - **Total Files:** 23097
 - **Total Blank Lines:** 1174803
 - **Total Comments:** 1844902
-- **Total Lines of Code:** 5518045
+- **Total Lines of Code:** 5518048
 
 ## Skipped Repositories
 
@@ -208,8 +208,8 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
-- KDP
 - SelfGithubScanner
+- KDP
 - ai-agents-intensive-2025-google-challenge
 - enterprise-gov-docs-a2a-capstone
 - fashionbench
