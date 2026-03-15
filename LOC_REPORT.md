@@ -1,11 +1,43 @@
 # Lines of Code Statistics
 
-Generated on: 2026-01-25 02:21:10 UTC
+Generated on: 2026-03-15 15:06:57 UTC
 
 ## Summary
 
 | Repository | Language | Files | Blank Lines | Comments | Code Lines |
 |------------|----------|-------|-------------|----------|------------|
+| AI-Sales-Call-Coaching-agent | Markdown | 1 | 0 | 0 | 2 |
+| chemlang | CSS | 1 | 5 | 0 | 86 |
+| chemlang | HTML | 1 | 0 | 0 | 14 |
+| chemlang | JSON | 4 | 0 | 0 | 10239 |
+| chemlang | JSX | 72 | 747 | 43 | 6589 |
+| chemlang | JavaScript | 11 | 39 | 62 | 436 |
+| chemlang | Markdown | 5 | 272 | 0 | 696 |
+| chemlang | Python | 3 | 208 | 206 | 835 |
+| chemlang | Text | 1 | 0 | 0 | 5 |
+| chemlang | TypeScript | 3 | 21 | 11 | 90 |
+| Chem2Math-Agent | JSON | 2 | 0 | 0 | 24 |
+| Chem2Math-Agent | Markdown | 28 | 586 | 0 | 1705 |
+| Chem2Math-Agent | Python | 5 | 132 | 85 | 494 |
+| Chem2Math-Agent | YAML | 5 | 16 | 0 | 150 |
+| Social | HTML | 17 | 712 | 51 | 4115 |
+| Social | JSON | 150 | 0 | 0 | 5344 |
+| Social | JavaScript | 23 | 315 | 101 | 1647 |
+| Social | Markdown | 51 | 2150 | 4 | 6462 |
+| Social | Python | 1 | 57 | 213 | 185 |
+| Social | Text | 23 | 462 | 0 | 817 |
+| Social | TypeScript | 38 | 686 | 188 | 7536 |
+| Social | XML | 1 | 4 | 11 | 15 |
+| devi-newsletter-studio | CSS | 2 | 35 | 3 | 109 |
+| devi-newsletter-studio | HTML | 1 | 5 | 2 | 23 |
+| devi-newsletter-studio | JSON | 6 | 5 | 0 | 8469 |
+| devi-newsletter-studio | JavaScript | 2 | 1 | 0 | 31 |
+| devi-newsletter-studio | Markdown | 2 | 39 | 0 | 69 |
+| devi-newsletter-studio | SQL | 2 | 8 | 4 | 27 |
+| devi-newsletter-studio | SVG | 1 | 0 | 0 | 1 |
+| devi-newsletter-studio | TOML | 1 | 1 | 0 | 3 |
+| devi-newsletter-studio | Text | 1 | 4 | 0 | 10 |
+| devi-newsletter-studio | TypeScript | 78 | 740 | 70 | 6831 |
 | SelfGithubScanner | JSON | 1 | 0 | 0 | 24 |
 | SelfGithubScanner | JavaScript | 1 | 66 | 19 | 328 |
 | SelfGithubScanner | Markdown | 3 | 101 | 0 | 479 |
@@ -159,30 +191,30 @@ Generated on: 2026-01-25 02:21:10 UTC
 |----------|---------------------|
 | reStructuredText | 455 |
 | make | 9 |
-| YAML | 1587 |
+| YAML | 1737 |
 | XSLT | 7689 |
-| XML | 42 |
-| TypeScript | 23448 |
-| Text | 58950 |
-| TOML | 712 |
-| SVG | 354 |
-| SQL | 1829 |
-| Python | 4782544 |
+| XML | 57 |
+| TypeScript | 37905 |
+| Text | 59782 |
+| TOML | 715 |
+| SVG | 355 |
+| SQL | 1856 |
+| Python | 4784058 |
 | PowerShell | 108 |
 | Perl | 383 |
 | Meson | 65 |
-| Markdown | 38528 |
+| Markdown | 47462 |
 | Mako | 522 |
-| JavaScript | 31562 |
-| JSX | 1493 |
-| JSON | 114163 |
+| JavaScript | 33676 |
+| JSX | 8082 |
+| JSON | 138239 |
 | INI | 213 |
 | IDL | 62 |
-| HTML | 14505 |
+| HTML | 18657 |
 | Dockerfile | 82 |
 | Cython | 31124 |
 | CSV | 376909 |
-| CSS | 2284 |
+| CSS | 2479 |
 | CMake | 3 |
 | C++ | 23184 |
 | C | 5051 |
@@ -191,10 +223,10 @@ Generated on: 2026-01-25 02:21:10 UTC
 
 ## Grand Totals
 
-- **Total Files:** 23097
-- **Total Blank Lines:** 1174803
-- **Total Comments:** 1844902
-- **Total Lines of Code:** 5518048
+- **Total Files:** 23639
+- **Total Blank Lines:** 1182053
+- **Total Comments:** 1845956
+- **Total Lines of Code:** 5581107
 
 ## Skipped Repositories
 
@@ -208,6 +240,12 @@ The following repositories were skipped:
 
 Successfully analyzed the following repositories:
 
+- AI-Sales-Call-Coaching-agent
+- chemlang
+- Chem2Math-Agent
+- Social
+- JobsAutomator
+- devi-newsletter-studio
 - SelfGithubScanner
 - KDP
 - ai-agents-intensive-2025-google-challenge
